@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#title {
+    font-weight: 700;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoPanel {
+    width: 1380px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 5px;
+    margin: 10px;
+    gap: 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 276px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid white;
+    margin: 10px;
+    padding: 10px;
+}
